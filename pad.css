@@ -1,29 +1,6 @@
-/*
- * The number of species that have evolved after the last great extinction,
- * coupled with how many supposed extinction events there have been 
- * and the temporal distance between them makes one think,
- * "Damn, there have been many animals that have walked or swam in the earth."
- * And, "Intelligent life is chaotic and destructive to nature."
- * Fortunately, so far, its influence has been extremely localized (1 tiny planet).
- * But if it is (in this case, humans are) the cause of the next mass extinction,
- * it is unlikely that the intelligent beings bringing about the extinction
- * would die with it. (Humans cause extinction of 'other' animals and plants.)
- * Now consider how likely it is that we could explore other planets very soon, 
- * given our recent jumps in technology, and the exponential rate at which they happen.
- * We could very soon be increasing our physical sphere of influence to other planets.
- * Keep jumping and you could see interstellar travel. 
- * Though, interstellar missions would last for many generations,
- * and future generations might not have the same intentions as their ancestors,
- * but the effects of that are fodder for another day. 
- * Likely the closed chaotic system of human-like beings
- * (for we would have evolved in this time) would implode before reaching its destination, 
- * BUT, suppose it was successful... or that other systems similar to ours are happening
- * The sphere(s) of influence of intelligent life would increase throughout the universe.
- * But since the universe is so expansive (don't take that word lightly),
- * it would look more or less the same on a grander scale.
- * Therefore, any destructive forces in the universe, no matter how grand,
- * from atom bomb to supernova, are more or less insignificant.
- */
+#controls,#board {
+    padding: 2px;
+}
 
 .key {
     display: inline-block;
@@ -70,19 +47,35 @@
     border-color: #998;
 }
 
-@keyframes blueSplash {
-    
-    from {
-        background: #aab; /* Standard syntax */
-    }
-    to {
-        background: #dde; /* Standard syntax */
-    }
+.purple {
+    background: #ede;
+    border-color: #989;
 }
 
-/* The element to apply the animation to */
-.clickedBlue {
-    animation-name: blueSplash;
-    animation-duration: 1s;
-}
 
+/*
+ * The number of species that have evolved after the last great extinction,
+ * coupled with how many supposed extinction events there have been 
+ * and the temporal distance between them makes one think,
+ * "Damn, there have been many animals that have walked or swam in the earth."
+ * And, "Intelligent life is chaotic and destructive to nature."
+ * Fortunately, so far, its influence has been extremely localized (1 tiny planet).
+ * But if it is (in this case, humans are) the cause of the next mass extinction,
+ * it is unlikely that the intelligent beings bringing about the extinction
+ * would die with it. (Humans cause extinction of 'other' animals and plants.)
+ * Now consider how likely it is that we could explore other planets very soon, 
+ * given our recent jumps in technology, and the exponential rate at which they happen.
+ * We could very soon be increasing our physical sphere of influence to other planets.
+ * Keep jumping and you could see interstellar travel. 
+ * Though, interstellar missions would last for many generations,
+ * and future generations might not have the same intentions as their ancestors,
+ * but the effects of that are fodder for another day. 
+ * Likely the closed chaotic system of human-like beings
+ * (for we would have evolved in this time) would implode before reaching its destination, 
+ * BUT, suppose it was successful... or that other systems similar to ours are happening
+ * The sphere(s) of influence of intelligent life would increase throughout the universe.
+ * But since the universe is so expansive (don't take that word lightly),
+ * it would look more or less the same on a grander scale.
+ * Therefore, any destructive forces in the universe, no matter how grand,
+ * from atom bomb to supernova, are more or less insignificant.
+ */
